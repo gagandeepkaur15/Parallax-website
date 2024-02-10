@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>Manali: A Travel Guide</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"></a>
+            <ul class="navigation">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="places_to_visit.html">Places to Visit</a></li>
+                <li><a href="cuisine.html">Cuisine</a></li>
+                <!-- <li><a href="#">Contact</a></li> -->
+            </ul>
+        </header>
+        <section class="parallax">
+            <h2 id="text">Manali</h2>
+            <img src="assets/monutain_01.png" id="m1">
+            <img src="assets/trees_02.png" id="t2">
+            <img src="assets/monutain_02.png" id="m2">
+            <img src="assets/trees_01.png" id="t1">
+            <img src="assets/man.png" id="man">
+            <img src="assets/plants.png" id="plants">
+        </section>
+        <section class="sec">
+            <h2>Manali: A travel guide</h2>
+            <p>Manali, at the northern end of the Kullu Valley in Himachal Pradesh, is a hill station situated at a height of 2050m (6398 ft) in the Himalayas. Situated on the Beas river (Vyaas in Hindi) and near its source, it is a popular tourist spot for Indians in summer and a magical, snow-covered place in winter. A staging point for a number of treks (Beas Kund, Chandrakhani Pass) and sports such as white-water rafting, Manali is also on the road to Ladakh via the valley of Lahaul and Spiti and the Rohtang Pass which is the main attraction near Manali</p>
+            <br><br>
+            <h4>Weather</h4>
+            <p>Minimum temp could be below -5°C from October 'thru March. December, January and February are the coldest months. Rest of the year, the minimum temperature would be 15-20°C.</p>
+            <br><br>
+            <h4>How to reach there</h4>
+            <h5>By Bus</h5>
+            <p>Manali is 570km from Delhi, the capital of India, and there are buses connecting the town with Delhi, Shimla, Dharamsala and Leh. For service from Delhi to Manali and back, tickets and reservations can be made at the Inter State Bus Terminus or the Himachal Tourism office on Safdar Hashmi Marg near Mandi House in New Delhi. You can book tickets online too. The approximate travel time from Delhi to Manali is 14 hours; from Ambala to Manali is 10 hours; from Chandigarh is 08 hours and from Kulu to Manali is 1.5 to 3 hours. Volvo buses—which depart around 17:00 and arrive about 10:00 the next day—are available from Delhi and is the best option in terms of comfort and value for money to reach Manali but you need to book these in advance. Some hotels like Snow Valley Resorts will book your Volvo & sightseeing along with their hotel package which results in a good package deal as you get everything in one go.</p>
+            <br>
+            <h5>By Private Taxi</h5>
+            <p>While booking a private taxi for Manali, one must ensure that the driver has adequate experience driving in hilly regions and does not have the habit of drinking alcohol. Also make sure the driver has made the trip at least once before and knows all the routes well. Also, you need to make sure that the driver is habituated to long, continuous driving routines. If you are going to Manali through Chandigarh-Ropar-Kiratpur-Mandi highway, then your driver would need to drive on hilly roads for at least 6 hours. Chandigarh to Manali would be about 8-9 hours by taxi.</p>
+            <br>
+            <h5>By Train</h5>
+            <p>The nearest Broad Gauge Rail Head is Ambala Cantt (200km) or Chandigarh (250km)from Indian Capital New Delhi. Ambala Cantt is on the Delhi - Amritsar and Delhi - Jammu main lines and is well served by rail, but you will need to travel to Ambala to get a bus for the 10 hour ride to Manali. Jogindernagar and Kalka are other, less preferable, rail heads for Manali.
+
+                The nearest broad gauge station is Kiratpur Sahib in Punjab near the city of Nangal. It lies in Ropar district of Punjab. The station lies on the Ambala Cantt - Una route of Indian Railways. From here you can easily get buses for Manali.</p>
+            <br>
+            <h5>By Plane</h5>
+            <p>The nearest airport is Bhuntar ( Kullu ) Airport ( Tel: 01902-265037, 265603), 50km from Manali, 10km from Kullu, about two hours away. Air India Regional operate flights to Kullu from Delhi. However the services can be irregular, and airfares can be high. Himalyan Bulls offer flight services from Chandigarh to kullu airport. It can be booked from their site. From the airport the best option to go to Manali is by Pre Paid taxi which is easily available there. The taxi stand is 100 metres from the airport. They have written prices with minimum ₹1200 to Manali. Alternatively just go to Kullu and take a frequent public bus (₹35, see Get Around section).</p>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+        <script>
+            gsap.from("#m1",{
+                scrollTrigger: {
+                    scrub: true
+                },
+                y: 100,
+            })
+            gsap.from("#m2",{
+                scrollTrigger: {
+                    scrub: true
+                },
+                y: 50,
+            })
+            gsap.from("#t2",{
+                scrollTrigger: {
+                    scrub: true
+                },
+                x: -50,
+            })
+            gsap.from("#t1",{
+                scrollTrigger: {
+                    scrub: true
+                },
+                x: 50,
+            })
+            gsap.from("#man",{
+                scrollTrigger: {
+                    scrub: true
+                },
+                x: -250,
+            })
+            gsap.from("#text",{
+                scrollTrigger: {
+                    scrub: true
+                },
+                x: 300,
+            })
+        </script>
+    </body>
+</html>
+
